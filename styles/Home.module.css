@@ -1,0 +1,75 @@
+.avatar{
+    border-radius: 9999px;
+    height: 49px;
+    width: 49px;
+    margin-top: 5px;
+}
+
+/*Page Home*/
+
+.container{
+    display: grid;
+    height:100vh;
+    overflow-y: auto;
+  
+}
+.containerHome{
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffffaa; 
+    backdrop-filter: blur(5px);
+    height:49px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    align-items:center;
+
+}
+.containerHome h2{
+    font-weight:800;
+    font-size: 21px;
+    padding-left: 15px;
+}
+.containerNav{
+    background: #fff;
+    position:fixed;
+    bottom:0;
+    border-top: 1px solid #eee;
+    width: 100%;
+    display: flex;
+   
+}
+
+.containerNav a{
+    align-items: center;
+    display: flex;
+    flex:1 1 auto;
+    justify-content: center;
+    height: 100%;
+}
+
+.containerNav a:hover{
+    background:radial-gradient(#0099ff22 15%,transparent 16%);
+    background-size: 180px 180px;
+    background-position: center;
+}
+
+.containerNav a:hover> :global(svg){
+    stroke: #0099ff;
+}
+
+.containerSection article{
+    padding:10px 15px;
+    display:flex;
+    border-bottom: 1px solid #eee;
+    flex:1;
+
+}
+.tweet{
+    padding-right: 10px;
+}
+.text{
+
+    line-height:1.3125;
+    margin:0;
+}
